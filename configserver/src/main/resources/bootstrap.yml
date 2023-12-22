@@ -3,7 +3,7 @@ spring:
     name: config-server
   profiles:
     active:
-      - native, git
+      - native
   cloud:
     config:
       server:
@@ -11,13 +11,15 @@ spring:
           search-locations: classpath:/config
         git:
           uri: https://github.com/Arturbik01/config.git
-          searchPaths: licensingservice
+          default-label: main
+#          searchPaths: licensingservice
 
 server:
   port: 8071
 
-encrypt:
-  key: fje83Ki8403Iod87dne7Yjsl3THueh48jfuO9j4U2hf64Lo
+#Используется ли если запущено в контейнере?
+#encrypt:
+#  key: san
 
 #Enable all Spring Boot Actuator endpoints.
 management:
