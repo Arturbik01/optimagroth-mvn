@@ -25,7 +25,7 @@ services:
     ports:
        - "8071:8071"
     environment:
-      ENCRYPT_KEY: "san"
+      ENCRYPT_KEY: "sana"
     networks:
       backend:
         aliases:
@@ -37,7 +37,7 @@ services:
       CONFIGSERVER_URI: "http://configserver:8071"
       CONFIGSERVER_PORT:   "8071"
       DATABASESERVER_PORT: "5433"
-      ENCRYPT_KEY: "san"
+      ENCRYPT_KEY: "IMSYMMETRIC"
     depends_on:
       database:
         condition: service_healthy

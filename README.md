@@ -66,3 +66,7 @@ Right now, when I write it at 01:56 AM. My place in Ivanvo, Bogorodskoe.
 - Или изучить Docker secrets
 - Пойти простым путем, используя .env файлы
 - Мысль: гарантировать разработчиком, что секрет для bootstrap и docker будут всегда одинаковы, чтобы избежать дрейфа конфигураций?
+
+#### 23.12.23 14:10 - Continue to learn Vault
+- I can't pull docker vault. Problem with some manifest.
+- Try using .env file and .gitignore
