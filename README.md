@@ -70,3 +70,15 @@ Right now, when I write it at 01:56 AM. My place in Ivanvo, Bogorodskoe.
 #### 23.12.23 14:10 - Continue to learn Vault
 - I can't pull docker vault. Problem with some manifest.
 - Try using .env file and .gitignore
+- 16:50. I'm upgrade my skills in make configuration.
+- My services don't work as local-app, but successes start in docker container
+I create and fix environment for localhost and stay for docker
+- I kill much time for change port on my local database(psql)
+- I got many problems. Server postgres don't run after change port; I can't find how to resolve with a problem;
+But I learn more info about the settings of psql; ps_lscluster for monitoring exit clusters on server
+ps_ctrlcluster for execute operation on need cluster (up/down);
+Configuration file for psql located at /etc/postgresql/<ver>/<clustername>/postgresql.conf
+- I take goal change port in psql (locale or container);
+Before run container, I need to stop postgresql service. It's not comfortable. I want to run localhost psql and container psql without exception for "already used port"
+I think take time to study English.
+- Next I want to practice git branch, merge, etc. Command from add to push I learned.
