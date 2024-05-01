@@ -82,3 +82,7 @@ Configuration file for psql located at /etc/postgresql/<ver>/<clustername>/postg
 Before run container, I need to stop postgresql service. It's not comfortable. I want to run localhost psql and container psql without exception for "already used port"
 I think take time to study English.
 - Next I want to practice git branch, merge, etc. Command from add to push I learned.
+
+#### 02.05.2024 - Continue to learn Eureka and Docker
+- I'm refreshed my mind and skills for Docker. Meeting with Eureka and Load Balancer
+- Now I use OS Windows. This is very different feel. It's so hardly better linux.

@@ -3,15 +3,15 @@ spring:
     name: config-server
   profiles:
     active:
-      - native, git
+      - native
   cloud:
     config:
       server:
-#        native:
-#          search-locations: classpath:/config
-        git:
-          uri: https://github.com/Arturbik01/config.git
-          default-label: main
+        native:
+          search-locations: classpath:/config
+#        git:
+#          uri: https://github.com/Arturbik01/config.git
+#          default-label: main
 #          searchPaths: licensingservice
 
 server:
